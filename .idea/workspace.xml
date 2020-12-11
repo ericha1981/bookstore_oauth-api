@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="GoTestRunConfiguration" name="go test github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
+    </enabled-run-configurations>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d04e601-be77-4c56-a965-14dffb54ee64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/application.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clients/cassandra/cassandra_db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/access_token/access_token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/access_token/access_token_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/access_token/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/http/http_access_token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/db/db_repository.db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/errors/errors.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/sdk/go1.15.5" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1lIYZ8sUKw906fDFA8ihjxlpQTT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="cassandra" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/http" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/ericha1981/bookstore_oauth-api/src">
+    <configuration name="go build github.com/ericha1981/bookstore_oauth-api/src" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bookstore_oauth-api" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/main.go" />
+      <package value="github.com/ericha1981/bookstore_oauth-api/src" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestAccessTokenConstants in github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bookstore_oauth-api" />
+      <working_directory value="$PROJECT_DIR$/src/domain/access_token" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestAccessTokenConstants\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestAccessTokenIsExpired in github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bookstore_oauth-api" />
+      <working_directory value="$PROJECT_DIR$/src/domain/access_token" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestAccessTokenIsExpired\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGetNewAccessToken in github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bookstore_oauth-api" />
+      <working_directory value="$PROJECT_DIR$/src/domain/access_token" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestGetNewAccessToken\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bookstore_oauth-api" />
+      <working_directory value="$PROJECT_DIR$/src/domain/access_token" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/ericha1981/bookstore_oauth-api/src" />
+        <item itemvalue="Go Test.TestAccessTokenIsExpired in github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
+        <item itemvalue="Go Test.TestGetNewAccessToken in github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
+        <item itemvalue="Go Test.TestAccessTokenConstants in github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
+        <item itemvalue="Go Test.go test github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d04e601-be77-4c56-a965-14dffb54ee64" name="Default Changelist" comment="" />
+      <created>1607286124991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607286124991</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bookstore_oauth_api$TestGetNewAccessToken_in_github_com_ericha1981_bookstore_oauth_api_src_domain_access_token.out" NAME="TestGetNewAccessToken in github.com/ericha1981/bookstore_oauth-api/src/domain/access_token Coverage Results" MODIFIED="1607288996512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/bookstore_oauth_api$go_test_github_com_ericha1981_bookstore_oauth_api_src_domain_access_token.out" NAME="go test github.com/ericha1981/bookstore_oauth-api/src/domain/access_token Coverage Results" MODIFIED="1607290327913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
