@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoTestManager">
-    <enabled-run-configurations>
-      <run-configuration type="GoTestRunConfiguration" name="go test github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
-    </enabled-run-configurations>
-  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -25,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d04e601-be77-4c56-a965-14dffb54ee64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/domain/users/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/rest/users_repository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/rest/users_repository_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/application.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/application.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/cassandra/cassandra_db.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/clients/cassandra/cassandra_db.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/db/db_repository.db.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/db/db_repository.db.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +60,7 @@
     <property name="DatabaseDriversLRU" value="cassandra" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
@@ -87,45 +83,45 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestAccessTokenConstants in github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLoginUserInvalidUserJsonResponse in github.com/ericha1981/bookstore_oauth-api/src/repository/rest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="bookstore_oauth-api" />
-      <working_directory value="$PROJECT_DIR$/src/domain/access_token" />
+      <working_directory value="$PROJECT_DIR$/src/repository/rest" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
+      <package value="github.com/ericha1981/bookstore_oauth-api/src/repository/rest" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestAccessTokenConstants\E$" />
+      <pattern value="^\QTestLoginUserInvalidUserJsonResponse\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestAccessTokenIsExpired in github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLoginUserNoError in github.com/ericha1981/bookstore_oauth-api/src/repository/rest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="bookstore_oauth-api" />
-      <working_directory value="$PROJECT_DIR$/src/domain/access_token" />
+      <working_directory value="$PROJECT_DIR$/src/repository/rest" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
+      <package value="github.com/ericha1981/bookstore_oauth-api/src/repository/rest" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestAccessTokenIsExpired\E$" />
+      <pattern value="^\QTestLoginUserNoError\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGetNewAccessToken in github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLoginUserTimeoutFromApi in github.com/ericha1981/bookstore_oauth-api/src/repository/rest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="bookstore_oauth-api" />
-      <working_directory value="$PROJECT_DIR$/src/domain/access_token" />
+      <working_directory value="$PROJECT_DIR$/src/repository/rest" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
+      <package value="github.com/ericha1981/bookstore_oauth-api/src/repository/rest" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestGetNewAccessToken\E$" />
+      <pattern value="^\QTestLoginUserTimeoutFromApi\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/ericha1981/bookstore_oauth-api/src/repository/rest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="bookstore_oauth-api" />
-      <working_directory value="$PROJECT_DIR$/src/domain/access_token" />
+      <working_directory value="$PROJECT_DIR$/src/repository/rest" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
+      <package value="github.com/ericha1981/bookstore_oauth-api/src/repository/rest" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
@@ -133,10 +129,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build github.com/ericha1981/bookstore_oauth-api/src" />
-        <item itemvalue="Go Test.TestAccessTokenIsExpired in github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
-        <item itemvalue="Go Test.TestGetNewAccessToken in github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
-        <item itemvalue="Go Test.TestAccessTokenConstants in github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
-        <item itemvalue="Go Test.go test github.com/ericha1981/bookstore_oauth-api/src/domain/access_token" />
+        <item itemvalue="Go Test.TestLoginUserTimeoutFromApi in github.com/ericha1981/bookstore_oauth-api/src/repository/rest" />
+        <item itemvalue="Go Test.go test github.com/ericha1981/bookstore_oauth-api/src/repository/rest" />
+        <item itemvalue="Go Test.TestLoginUserNoError in github.com/ericha1981/bookstore_oauth-api/src/repository/rest" />
+        <item itemvalue="Go Test.TestLoginUserInvalidUserJsonResponse in github.com/ericha1981/bookstore_oauth-api/src/repository/rest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +164,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bookstore_oauth_api$TestGetNewAccessToken_in_github_com_ericha1981_bookstore_oauth_api_src_domain_access_token.out" NAME="TestGetNewAccessToken in github.com/ericha1981/bookstore_oauth-api/src/domain/access_token Coverage Results" MODIFIED="1607288996512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/bookstore_oauth_api$TestLoginUserInvalidloginCredentials_in_github_com_ericha1981_bookstore_oauth_api_src_repository_rest.out" NAME="TestLoginUserInvalidloginCredentials in github.com/ericha1981/bookstore_oauth-api/src/repository/rest Coverage Results" MODIFIED="1607841088277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/bookstore_oauth_api$TestLoginUserTimeoutFromApi_in_github_com_ericha1981_bookstore_oauth_api_src_repository_rest.out" NAME="TestLoginUserTimeoutFromApi in github.com/ericha1981/bookstore_oauth-api/src/repository/rest Coverage Results" MODIFIED="1607838756424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/bookstore_oauth_api$go_test_github_com_ericha1981_bookstore_oauth_api_src_repository_rest.out" NAME="go test github.com/ericha1981/bookstore_oauth-api/src/repository/rest Coverage Results" MODIFIED="1607842083505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/bookstore_oauth_api$go_test_github_com_ericha1981_bookstore_oauth_api_src_domain_access_token.out" NAME="go test github.com/ericha1981/bookstore_oauth-api/src/domain/access_token Coverage Results" MODIFIED="1607290327913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
